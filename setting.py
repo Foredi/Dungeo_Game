@@ -1,0 +1,11 @@
+WIDTH = 1280
+HEIGHT = 720
+FPS = 60
+
+# Player
+PLAYER_START_X = 100
+PLAYER_START_Y = 100
+PLAYER_SPEED = 5
+
+# Colors
+BLACK = (0, 0, 0)
