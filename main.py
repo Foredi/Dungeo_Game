@@ -65,6 +65,7 @@ while True:
 
     player.update()
     player.draw(screen)
+    player.move_player(keys)
 
     # Get all the events
     for event in pygame.event.get():
