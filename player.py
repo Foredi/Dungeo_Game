@@ -2,6 +2,7 @@ import pygame
 from spritesheet import SpriteSheet
 from setting import *
 import os
+import math
 
 class LoadAnimation():
     def __init__(self, path):
@@ -23,9 +24,9 @@ class LoadAnimation():
         return self.animation
 
 class Player():
-    def __init__(self, x, y, speed, animation):
-        self.x = x
-        self.y = y
+    def __init__(self , speed, animation):
+        super().__init__()
+        self.pos = pygame.math.Vector2(PLAYER_START_X, PLAYER_START_Y)
         self.speed = speed
         self.animation = animation
         self.last_update = pygame.time.get_ticks()
@@ -37,7 +38,66 @@ class Player():
         self.is_moving = False
         self.is_attacker = False
 
+    def player_rotate(self):
+        self.base_player_image = self.animation[self.action][self.moves[self.move]][self.frame]
+        self.hitbox_rect = self.base_player_image.get_rect(center = self.pos + pygame.math.Vector2(48, 48))
+        self.rect = self.hitbox_rect.copy()
+        self.rect.center = self.hitbox_rect.center + pygame.math.Vector2(10, 10)
+        self.rect.height = self.hitbox_rect.height - 20
+        self.rect.width = self.hitbox_rect.width - 20
+
+
+    def user_input(self):
+        self.velocity_x = 0
+        self.velocity_y = 0
+
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_a]:
+            self.velocity_x = -self.speed
+            # self.action = "run"
+            self.move = "left"
+            # self.is_moving = True
+        if keys[pygame.K_d]:
+            self.velocity_x = self.speed
+            # self.action = "run"
+            self.move = "right"
+            # self.is_moving = True
+        if keys[pygame.K_w]:
+            self.velocity_y = -self.speed
+            # self.action = "run"
+            self.move = "back"
+            # self.is_moving = True
+        if keys[pygame.K_s]:
+            self.velocity_y = self.speed
+            # self.action = "run"
+            self.move = "front"
+            # self.is_moving = True
+        if keys[pygame.K_SPACE]:
+            if not self.is_attacker:
+                self.is_attacker = True
+                self.action = "attack"
+                self.frame = 0
+
+        if self.velocity_x != 0 and self.velocity_y != 0:
+            self.velocity_x /= math.sqrt(2)
+            self.velocity_y /= math.sqrt(2)
+
+        if keys[pygame.K_a] or keys[pygame.K_d] or keys[pygame.K_w] or keys[pygame.K_s]:
+            self.is_moving = True
+            self.action = "run"
+            # self.frame = 0
+            self.is_attacker = False
+        
+        if self.velocity_x == 0 and self.velocity_y == 0:
+            self.is_moving = False
+
+    def move_camera(self):
+        self.pos += pygame.math.Vector2(self.velocity_x, self.velocity_y)
+
     def update(self):
+        self.user_input()
+        self.move_camera()
+        
         current_time = pygame.time.get_ticks()
         if current_time - self.last_update > self.animation_cooldown:
             self.last_update = current_time
@@ -50,35 +110,14 @@ class Player():
                     self.action = "idle"
                     self.is_attacker = False
 
-
     def draw(self, screen):
-        screen.blit(self.animation[self.action][self.moves[self.move]][self.frame], (self.x, self.y))
+        self.update()
+        self.player_rotate()
+        screen.blit(self.animation[self.action][self.moves[self.move]][self.frame], self.pos)
 
-    def move_player(self, keys):
-        if keys[pygame.K_w]:
-            self.y -= self.speed
-            self.move = "back"
-            self.action = "run"
-            self.is_moving = True
-        elif keys[pygame.K_s]:
-            self.y += self.speed
-            self.move = "front"
-            self.action = "run"
-            self.is_moving = True
-        elif keys[pygame.K_a]:
-            self.x -= self.speed
-            self.move = "left"
-            self.action = "run"
-            self.is_moving = True
-        elif keys[pygame.K_d]:
-            self.x += self.speed
-            self.move = "right"
-            self.action = "run"
-            self.is_moving = True
-        else:
-            self.is_moving = False
 
-    def attack(self, keys):
-        if keys[pygame.K_SPACE]:
-            self.action = "attack"
-            self.is_attacker = True
+
+
+
+    
+
