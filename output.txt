@@ -1,0 +1,279 @@
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004345893859863281]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.00200653076171875]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.0053424835205078125]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0020093917846679688]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.003996133804321289]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.002166748046875]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.006524801254272461]
+Method BFS: ['BFS', 0.0009887218475341797]
+Method DLS: ['DLS', 0.0009996891021728516]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.00453639030456543]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0010013580322265625]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.00599980354309082]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.002537965774536133]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004011631011962891]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0010013580322265625]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.00400090217590332]
+Method BFS: ['BFS', 0.0014851093292236328]
+Method DLS: ['DLS', 0.0010113716125488281]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005501985549926758]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.001516580581665039]
+Method IDS: ['IDS', 0.001020669937133789]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.00451207160949707]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.000997304916381836]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004466533660888672]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0010004043579101562]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0009984970092773438]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005986690521240234]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0005056858062744141]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005013227462768555]
+Method BFS: ['BFS', 0.0009984970092773438]
+Method DLS: ['DLS', 0.0010120868682861328]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004510641098022461]
+Method BFS: ['BFS', 0.0010075569152832031]
+Method DLS: ['DLS', 0.0010442733764648438]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004011631011962891]
+Method BFS: ['BFS', 0.0009949207305908203]
+Method DLS: ['DLS', 0.0015070438385009766]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0010082721710205078]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.003534555435180664]
+Method BFS: ['BFS', 0.0009899139404296875]
+Method DLS: ['DLS', 0.0010018348693847656]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0009984970092773438]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004014015197753906]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0022149085998535156]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.0050466060638427734]
+Method BFS: ['BFS', 0.0009522438049316406]
+Method DLS: ['DLS', 0.001010894775390625]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.0052182674407958984]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0010020732879638672]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005507707595825195]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.001008749008178711]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.006995439529418945]
+Method BFS: ['BFS', 0.0011663436889648438]
+Method DLS: ['DLS', 0.0015108585357666016]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.00351715087890625]
+Method BFS: ['BFS', 0.0010027885437011719]
+Method DLS: ['DLS', 0.0019986629486083984]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.0039904117584228516]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.001590728759765625]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005824089050292969]
+Method BFS: ['BFS', 0.0010077953338623047]
+Method DLS: ['DLS', 0.0008742809295654297]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004524707794189453]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0010006427764892578]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0009968280792236328]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004997730255126953]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.001997232437133789]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.0055119991302490234]
+Method BFS: ['BFS', 0.000997304916381836]
+Method DLS: ['DLS', 0.0010018348693847656]
+Method IDS: ['IDS', 0.000997781753540039]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005005359649658203]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0010027885437011719]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005561351776123047]
+Method BFS: ['BFS', 0.0009598731994628906]
+Method DLS: ['DLS', 0.001999378204345703]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0009984970092773438]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005511283874511719]
+Method BFS: ['BFS', 0.0010001659393310547]
+Method DLS: ['DLS', 0.0010395050048828125]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0009629726409912109]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.006009578704833984]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0019998550415039062]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004523038864135742]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.002996683120727539]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.0030279159545898438]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.001009225845336914]
+Method IDS: ['IDS', 0.0009984970092773438]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.005004405975341797]
+Method BFS: ['BFS', 0.0]
+Method DLS: ['DLS', 0.0009980201721191406]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]
+Kết thúc lượt tìm kiếm
+Lượt tìm kiếm mới
+Method DFS: ['DFS', 0.004514217376708984]
+Method BFS: ['BFS', 0.00099945068359375]
+Method DLS: ['DLS', 0.0010077953338623047]
+Method IDS: ['IDS', 0.0]
+Method greedy: ['greedy', 0.0]
+Method astar: ['astar', 0.0]

@@ -5,9 +5,21 @@ HEIGHT = 720
 FPS = 60
 
 # Player
-PLAYER_START_X = random.randint(0, WIDTH)
-PLAYER_START_Y = random.randint(0, HEIGHT)
-PLAYER_SPEED = 5
+PLAYER_START_X = 3000
+PLAYER_START_Y = 1300
+PLAYER_SPEED = 3
+PLAYER_HEALTH = 9
+
+# Enemy
+ENEMY_START_X = random.randint(0, WIDTH)
+ENEMY_START_Y = random.randint(0, HEIGHT)
+ENEMY_SPEED = 2
+ENEMY_HEALTH = 1
 
 # Colors
 BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0 , 0)
+
+# Tile
+TILESIZE = 16 * 2.5
